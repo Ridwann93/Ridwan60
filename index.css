@@ -1,0 +1,109 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: roboto;
+}
+
+body {
+	background-image: linear-gradient(to right bottom, violet, lightblue, lightgreen);
+	background-size: cover;
+}
+
+.container {
+	display: flex;
+	position: relative;
+	left: 95px;
+	justify-content: space-around;
+	margin: 60px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	border: 1px solid;
+	width: 80%;
+	background-color: white;
+	background-size: cover;
+	border-radius: 16px;
+	box-shadow: 2px 2px black;
+}
+
+.left-box {
+	display: flex;
+	padding: 30px;
+	height: 400px;
+	width: 250px;
+	position: relative;
+	line-height: 2;
+	left: 40px;
+}
+
+.middle-box {
+	display: flex;
+	padding: 30px;
+	height: 300px;
+	width: 250px;
+	justify-content: center;
+	position: relative;
+	right: 20px;
+}
+
+
+h2 {
+	position: absolute;
+}
+
+.middle-box .foto {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	overflow: hidden;
+	position: relative;
+	top: 50px;
+}
+
+.middle-box .foto img {
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+}
+
+.right-box {
+	display: flex;
+	flex-direction: column;
+	padding: 30px;
+	height: 400px;
+	width: 250px;
+	position: relative;
+	line-height: 1.3;
+	right: 20px;
+	bottom: 40px;
+}
+
+p {
+	text-indent: 20px;
+	text-align: justify;
+}
+
+.motivasi {
+	margin-bottom: 5px;
+}
+
+.pelajari {
+	margin-bottom: 5px;
+}
+
+
+.sosmed {
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	top: 50vh;
+	left: 10.5vh;
+}
+
+i {
+	margin: 15px;
+	font-size: 30px;
+}
+
+i:hover {
+	cursor: pointer;
+}
